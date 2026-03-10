@@ -1,1 +1,1 @@
-# end-to-end-mlops-pipeline
+# Production-ready ML deployment using CI/CD, Docker, Kubernetes, and Helm
