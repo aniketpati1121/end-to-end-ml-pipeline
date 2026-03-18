@@ -33,4 +33,4 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ml-app .
+          docker build -t ml-app -f docker/Dockerfile .
