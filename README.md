@@ -7,4 +7,15 @@ This project demonstrates a complete **MLOps workflow** using:
 * Kubernetes (Next Step)
 * Helm (Next Step)
 
+--- 
+
+## 📌 Project Overview
+
+A simple Flask-based ML application that is:
+
+* Containerized using Docker
+* Tested using Pytest
+* Automated using CI pipeline
+* Pushed to DockerHub for deployment
+
 ---
