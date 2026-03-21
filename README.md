@@ -9,7 +9,7 @@ This project demonstrates a complete **MLOps workflow** using:
 
 --- 
 
-## 📌 Project Overview
+## Project Overview
 
 A simple Flask-based ML application that is:
 
@@ -19,3 +19,22 @@ A simple Flask-based ML application that is:
 * Pushed to DockerHub for deployment
 
 ---
+
+## Project Structure 
+
+```
+├── app
+│ ├── index.html
+│ └── main.py
+├── docker
+│ └── Dockerfile
+├── tests
+│ └── test_home.py
+├── .github/workflows
+│ └── ci.yml
+├── requirements.txt
+└── README.md
+
+``` 
+---
+
