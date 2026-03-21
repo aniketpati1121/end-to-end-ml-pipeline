@@ -38,3 +38,11 @@ A simple Flask-based ML application that is:
 ``` 
 ---
 
+## Tech Stack
+
+* Python (Flask)
+* Docker
+* GitHub Actions (CI)
+* Pytest
+
+---
