@@ -45,4 +45,21 @@ A simple Flask-based ML application that is:
 * GitHub Actions (CI)
 * Pytest
 
+--- 
+
+## Run Locally 
+
+### Clone Repo
+
+```bash
+git clone https://github.com/<your-username>/end-to-end-mlops-pipeline.git
+cd end-to-end-mlops-pipeline
+```
+---
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
 ---
