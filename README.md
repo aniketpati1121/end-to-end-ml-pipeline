@@ -52,7 +52,7 @@ A simple Flask-based ML application that is:
 ### Clone Repo
 
 ```bash
-git clone https://github.com/<your-username>/end-to-end-mlops-pipeline.git
+git https://github.com/aniketpati1121/end-to-end-ml-pipeline.git
 cd end-to-end-mlops-pipeline
 ```
 ---
@@ -62,4 +62,42 @@ cd end-to-end-mlops-pipeline
 ```bash
 pip install -r requirements.txt
 ```
+--- 
+
+### Run App
+
+```bash
+python app/main.py
+```
+
+Open in browser:  
+http://localhost:5001
+
+---
+
+## Run Tests
+
+```bash
+pytest
+``` 
+
+---
+
+## Docker Setup
+
+### Build Image
+
+```bash
+docker build -t ml-app -f docker/Dockerfile .
+```
+
+### Run Container
+
+```bash
+docker run -d -p 5001:5001 --name ml-test ml-app
+```
+
+ Open:  
+http://localhost:5001
+
 ---
